@@ -1,0 +1,26 @@
+[
+  {
+    "title": "📧 Reimbursement Budget Email",
+    "notes": "Submit email to SPV cc to Natasya for montly reimbursement budget",
+    "day": -5,
+    "due_days": 5
+  },
+  {
+    "title": "💶 Submit SSE Reimbursement",
+    "notes": "Prepare required papers for SSE",
+    "day": -2,
+    "due_days": 5
+  },
+  {
+    "title": "🏍️ Pay Parkee Subs",
+    "notes": "Pay parkee subscription fro Parkee app",
+    "day": 1,
+    "due_days": 5
+  },
+  {
+    "title": "🏡 Pay At-Tin Kost",
+    "notes": "Pay At-Tin Kost room monthly payment + laundry",
+    "day": 7,
+    "due_days": 3
+  }
+]
