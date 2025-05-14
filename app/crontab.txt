@@ -1,1 +1,1 @@
-0 6 * * * /usr/bin/python3 /app/check_and_create_task.py >> /var/log/cron.log 2>&1
+0 6 * * * /usr/bin/python3 /app/task_scheduler.py >> /var/log/cron.log 2>&1
