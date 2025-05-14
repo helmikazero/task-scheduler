@@ -14,7 +14,7 @@ MONGO_DB   = os.getenv("MONGO_DB", "task_db")
 MONGO_URI = f"mongodb://{MONGO_USER}:{MONGO_PASS}@{MONGO_HOST}:{MONGO_PORT}/{MONGO_DB}?authSource=admin"
 client = MongoClient(MONGO_URI)
 db = client[MONGO_DB]
-collection = db["task_schedule"]
+collection = db["task"]
 
 # Google Task API endpoint
 TASK_API_URL = os.getenv("TASK_API_URL", "http://task-api:5000/create-task")
